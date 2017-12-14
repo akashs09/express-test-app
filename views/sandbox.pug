@@ -1,0 +1,18 @@
+doctype html
+html(lang="en")
+head
+  title Friends Table
+body
+  table
+    tr
+      th
+        h3 First Name
+      th
+        h3 Last Name
+    tr
+      td
+        each val in firstName
+          p= val
+      td
+        each val in lastName
+          p= val
